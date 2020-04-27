@@ -33,7 +33,7 @@ function DoughnutChart() {
     const options = {
         title: {
             display: true,
-            text: 'Bar Chart'
+            text: 'Doughnut Chart'
         }
     }
     return (
