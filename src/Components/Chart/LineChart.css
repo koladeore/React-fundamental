@@ -1,0 +1,7 @@
+.chart{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 720px;
+}

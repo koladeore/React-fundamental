@@ -1,24 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { 
+  BarChart, 
+  DoughnutChart, 
+  LineChart, 
+  ColorPicker,  
+  CountingUp, 
+  CreditCard, 
+  DatePickerContainer,
+  Icons,
+  IdleTimerContainer,
+  Modals,
+  Notify,
+  Spinner,
+  ToolTips,
+  Player
+} from './Components';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Icons />,
+      <Notify />,
+      <Modals />,
+      <ToolTips />,
+      <CountingUp />,
+      <IdleTimerContainer />,
+      <ColorPicker />,
+      <CreditCard />,
+      <DatePickerContainer />,
+      <Player />,
+      <Spinner />,
+      <LineChart/>,
+      <BarChart />,
+      <DoughnutChart />
     </div>
   );
 }
